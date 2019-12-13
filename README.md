@@ -1,3 +1,5 @@
+The program finds the word that is repeated most often and displays it on the screen
+
 How to start hadoop app on Windows
 1. Open console. 
 2. Go to sbin folder: 
@@ -13,7 +15,7 @@ How to start hadoop app on Windows
         hadoop fs -put C:/input_file.txt /input_dir
 7. Add data from disc to hadoop
         hadoop fs -put C:/input_file.txt /input_dir
-8. View data on hadoop to make sure data is added
+8. View data on hadoop to make sure it is added
         hadoop dfs -cat /input_dir/*
 9. Start app
         hadoop jar C:/WordCount.jar WordCount /input_dir /output_dir
