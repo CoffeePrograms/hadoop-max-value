@@ -18,4 +18,4 @@ How to start hadoop app on Windows
 9. Start app
         hadoop jar C:/WordCount.jar WordCount /input_dir /output_dir
 10. View result
-        hadoop dfs -cat /output_dir1/*
+        hadoop dfs -cat /output_dir/*
