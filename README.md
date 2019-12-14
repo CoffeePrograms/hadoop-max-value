@@ -1,5 +1,7 @@
-The program finds the word that is repeated most often and displays it on the screen
+What does the app do
 ---
+The program finds the word that is repeated most often and displays it on the screen (look at the result.jpg)
+
 How to install hadoop: https://github.com/MuhammadBilalYar/Hadoop-On-Window
 ---
 How to start hadoop app on Windows
