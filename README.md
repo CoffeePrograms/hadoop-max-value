@@ -10,13 +10,13 @@ How to start hadoop app on Windows
 ---
 1. Open console. 
 2. Go to sbin folder: 
-    ```
-    cd C:\hadoop-2.8.0\sbin
-    ```
+```
+cd C:\hadoop-2.8.0\sbin
+```
 3. Start hadoop: 
 ```
-        start-dfs.cmd
-        start-yarn.cmd
+start-dfs.cmd
+start-yarn.cmd
 ```
 4. Disable safe mode to add and remove folders
 ```
@@ -49,7 +49,7 @@ hadoop dfs -cat /output_dir/*
 If it does not start
 ---
 Manually delete the files in the datanode (path: C:\hadoop-2.8.0\data\datanode) and type in the console: 
- ```   
- hdfs namenode -format
-  ```
+```   
+hdfs namenode -format
+```
   and add the input files again
