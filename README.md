@@ -23,3 +23,7 @@ How to start hadoop app on Windows
         hadoop jar C:/WordCount.jar WordCount /input_dir /output_dir
 10. View result
         hadoop dfs -cat /output_dir/*
+
+If you are having trouble running the application, you should delete the files in the datanode and type in the console: 
+    hdfs namenode -format
+    and add the input again
