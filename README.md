@@ -2,8 +2,9 @@ What does the app do
 ---
 The program finds the word that is repeated most often and displays it on the screen (look at the result.jpg)
 
-How to install hadoop: https://github.com/MuhammadBilalYar/Hadoop-On-Window
+How to install hadoop
 ---
+https://github.com/MuhammadBilalYar/Hadoop-On-Window
 How to start hadoop app on Windows
 ---
 1. Open console. 
@@ -46,7 +47,7 @@ hadoop dfs -cat /output_dir/*
 ```
 If it does not start
 ---
-If you are having trouble running the application, you should delete the files in the datanode and type in the console: 
+Manually delete the files in the datanode (path: C:\hadoop-2.8.0\data\datanode) and type in the console: 
  ```   
  hdfs namenode -format
   ```
