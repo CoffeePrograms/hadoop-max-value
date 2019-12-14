@@ -46,7 +46,7 @@ hadoop jar C:/WordCount.jar WordCount /input_dir /output_dir
 ```        
 hadoop dfs -cat /output_dir/*
 ```
-If it does not start
+If it doesn't start
 ---
 Manually delete the files in the datanode (path: C:\hadoop-2.8.0\data\datanode) and type in the console: 
 ```   
