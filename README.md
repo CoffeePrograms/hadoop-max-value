@@ -48,7 +48,7 @@ hadoop dfs -cat /output_dir/*
 ```
 If it doesn't start
 ---
-Manually delete the files in the datanode (path: C:\hadoop-2.8.0\data\datanode) and type in the console: 
+Manually delete the files in the datanode (path: C:\hadoop-2.8.0\data\datanode), type in the console: 
 ```   
 hdfs namenode -format
 ```
