@@ -30,26 +30,23 @@ hadoop fs -mkdir /input_dir
 ```
 hadoop fs -put C:/input_file.txt /input_dir
 ```
-7. Add data from disc to hadoop
-```
-hadoop fs -put C:/input_file.txt /input_dir
-```
-8. View data on hadoop to make sure it is added
+7. View data on hadoop to make sure it is added
 ```
 hadoop dfs -cat /input_dir/*
 ```
-9. Start app
+8. Start app
 ```
 hadoop jar C:/WordCount.jar WordCount /input_dir /output_dir
 ```
-10. View result
+9. View result
 ```        
 hadoop dfs -cat /output_dir/*
 ```
 If it doesn't start
 ---
-Manually delete the files in the datanode (path: C:\hadoop-2.8.0\data\datanode), type in the console: 
+1. Manually delete all files in the datanode (path: C:\hadoop-2.8.0\data\datanode)
+2. Format namenode: 
 ```   
 hdfs namenode -format
 ```
-  and add the input files again
+3. Add the input files again
